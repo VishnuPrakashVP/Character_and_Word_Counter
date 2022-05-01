@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Character and Word Counter
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This is the second project that I have made using React. This project was given by my tutor as an assignment on types of components in React and their usage.
+
+In this project I'm using class type component for counting the number of words and characters in the input entered by the user.
 
 ## Available Scripts
 
