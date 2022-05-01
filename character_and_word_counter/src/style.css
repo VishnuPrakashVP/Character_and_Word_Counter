@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+
+
+body{
+    
+    height: 100vh;
+    /* backdrop-filter: blur(1px); */
+    object-fit: contain;
+    background-image: url("D:\Syntax Error\FSD\react\SLP\Character and Word Counter\character_and_word_counter\images\3.jpg") ;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: 80%;
+    
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.app{
+    width: 1000px;
+    height: 600px;
+    background-color: rgba(83, 83, 83, 0.2);
+    backdrop-filter: blur(15px);
+    border-radius: 30px;
+    box-shadow: 0px 0px 80px 20px #00000069;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.1px solid rgba(255, 255, 255, 0.308);
+}
+
+.app::after{
+    content: "";
+    width: 1000px;
+    height: 600px;
+    padding: 0px 5px;
+    border-radius: 30px;
+    transform: scale(0.97);
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.425);
+    pointer-events: none;
+    
+    
+}
+
+.output{
+    width:270px;
+    height: 50px;
+    display: flex;
+    
+    align-items: center;
+    color: white;
+    position: relative;
+    outline: 1px solid white;
+    padding: 2px 170px;
+    border-radius: 20px;
+    background-color: white;
+    top: 70px;
+}
+
+#text-box{
+    width: 60%;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    border: none;
+    outline: none;
+    padding-inline-start: 10px;
+    padding-top: 10px;
+    font-size: 1.2em;
+    font-family: "poppins";
+    position: relative;
+    top: 50px;
+}
+
+#char-count{
+    font-family: 'poppins';
+    color: rgb(31, 31, 31);
+    white-space: nowrap;
+    padding: 5px 20px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    top: 0;
+    left: -50%;
+    
+}
+
+#word-count{
+    font-family: 'poppins';
+    color: black;
+    white-space: nowrap;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    top: 0;
+    left: 50%;
+}
+
+.heading{
+    font-family: 'poppins';
+    
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 10px 190px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 40px;
+}
