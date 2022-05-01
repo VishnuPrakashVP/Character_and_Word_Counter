@@ -6,6 +6,8 @@ This is the second project that I have made using React. This project was given 
 
 In this project I'm using class type component for counting the number of words and characters in the input entered by the user.
 
+P.S - There is screen-recording of the app in the master branch.
+
 ## Available Scripts
 
 In the project directory, you can run:
